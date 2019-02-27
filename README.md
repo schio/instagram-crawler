@@ -1,4 +1,5 @@
 # instagram-crawler
+[![HitCount](http://hits.dwyl.io/schio/https://github.com/schio/instagram-crawler.svg)](http://hits.dwyl.io/schio/https://github.com/schio/instagram-crawler)
 Instagram crawler using Python for research data collection 
 
 # Installation
