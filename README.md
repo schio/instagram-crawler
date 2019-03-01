@@ -14,16 +14,16 @@ $ pip install -r requirements.txt
 
 
 
-# Usage
+# 사용 | Usage
 
 
-**How to use**
+**사용법 | How to use**
 
 ``` sh
 $ python crawler.py seoul seoul100_4.json 120 4
 ```
 
-**Print**
+**실행 중 출력 결과 | Print**
 
 ```sh
 --------해시태그 검색 시작--------
@@ -46,10 +46,10 @@ total runtime is 51.16804623603821
 
 
 
-**Two files are created.**
+**실행시 두개의 파일이 생성됩니다. | Two files are created.**
 
 
-**First, Format of output_outer [filename]**
+**첫번째, output_outer [filename]이 생성됩니다. | First, Format of output_outer [filename]**
 
 ```python
 resultJson = {
@@ -59,7 +59,7 @@ resultJson = {
 }
 ```
 
-**Ex>**
+**예시 | Ex>**
 
 ```python
 {
@@ -85,7 +85,7 @@ resultJson = {
 
 
 
-**The second, output_ [filename]**
+**두번째, output_[filename]이 생성됩니다. The second, output_ [filename]**
 
 ```python
 meta = {
@@ -103,7 +103,7 @@ meta = {
 }
 ```
 
-**Ex**>
+**예시 | Ex**>
 
 ```python
 [
@@ -121,7 +121,7 @@ meta = {
 
 
 
-# Help
+# 도움말 | Help
 
 
 ```sh
