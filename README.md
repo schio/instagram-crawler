@@ -1,10 +1,10 @@
-# instagram-crawler
+# 인스타그램 크롤러 | instagram-crawler
 
 [![HitCount](http://hits.dwyl.io/schio/https://github.com/schio/instagram-crawler.svg)](http://hits.dwyl.io/schio/https://github.com/schio/instagram-crawler)
 
-Instagram crawler using Python for research data collection 
+파이썬을 이용한 연구 데이터 수집 목적의 인스타그램 크롤러 | Instagram crawler using Python for research data collection 
 
-# Installation
+# 설치 | Installation
 
 
 ```sh
