@@ -8,12 +8,15 @@ def getChromeDriverPath():
     osType = platform.system()
 
     if osType == 'Drawin': # type of os is mac
+        print('OS TYPE IS',osType)
         return 'chromedriver/mac64_chromedriver'
 
     elif osType == 'Linux': # type of os is linux
+        print('OS TYPE IS',osType)
         return 'chromedriver/linux64_chromedriver'
 
     elif osType == 'Windows': # type of os is windows
+        print('OS TYPE IS',osType)
         return 'chromedriver/win32_chromedriver.exe'
     
     else:
@@ -22,6 +25,7 @@ def getChromeDriverPath():
 def createDriver(targetUrl):
 
     chromeDriverPath = getChromeDriverPath()
+    # chromeDriverPath = '.chromedriver/linux64_chromedriver'
     if not(chromeDriverPath):
         print('Failed to check operating system type')
         sys.exit(1) # OS 타입을 확인하지 못하면 프로그램 종료
