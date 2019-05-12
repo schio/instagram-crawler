@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+.vscode
 # C extensions
 *.so
 
@@ -108,3 +108,4 @@ test.py
 *.html
 *.json
 output_*
+.DataBaseInfo.py

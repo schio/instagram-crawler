@@ -5,8 +5,9 @@ from bs4 import BeautifulSoup
 import time
 import driver
 import json
+import requests
 
-def getFoodImg(hashtag):
+def getFoodImgAtInstagram(hashtag):
     # 인스타그램 공식 홈페이지
     instagramHompage = 'https://www.instagram.com'
     url = 'https://www.instagram.com/explore/tags/'+hashtag
@@ -42,9 +43,13 @@ def getFoodImg(hashtag):
     meta = {
         'urls' : food_img_urls # 사진 url
     }
-    print(meta)
+    # print(meta)
     return json.dumps(meta, ensure_ascii=False)
 
+# def getFoodImgAtGoogle(name):
+#     url = 
 start_time = time.time()
-getFoodImg('김치볶음밥')
+# getFoodImgAtInstagram('김치볶음밥')
 print(time.time() - start_time)
+
+# https://www.google.com/search?q=tapas&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjf8Jnl7pPiAhVJL6YKHSKvCDAQ_AUIDigB&biw=819&bih=918&dpr=2
